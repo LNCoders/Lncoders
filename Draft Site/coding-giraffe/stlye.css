@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	width: 100%;
+	background:url(mainbackground.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+#content{
+	width: 50%;
+	height: 50%;
+	background:#CCCCCC;
+	border-radius: 15px;
+	background-position:center;
+	background-size:cover;
+	margin-left:10em;
+	position:absolute;
+}
