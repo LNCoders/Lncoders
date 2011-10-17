@@ -1,0 +1,13 @@
+INSERT INTO Staff (001,'Andrew','Ireland','Manager','M'); // All fields not filled yet.
+INSERT INTO Staff (002,'Andrew','Ireland','Manager','M');
+INSERT INTO Staff (003,'Andrew','Ireland','Manager','M');
+INSERT INTO Staff (004,'Andrew','Ireland','Manager','M');
+INSERT INTO Staff (005,'Andrew','Ireland','Manager','M');
+INSERT INTO Staff (006,'Andrew','Ireland','Manager','M');
+INSERT INTO Staff (007,'Andrew','Ireland','Manager','M');
+INSERT INTO Staff (008,'Andrew','Ireland','Manager','M');
+INSERT INTO Staff (009,'Andrew','Ireland','Manager','M');
+INSERT INTO Staff (010,'Andrew','Ireland','Manager','M');
+
+
+INSERT INTO Member();
