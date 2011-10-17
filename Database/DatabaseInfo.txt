@@ -25,3 +25,11 @@ INSERT INTO Classes VALUES (111,"Swimming");
 INSERT INTO Classes VALUES (222,"Cycling");
 INSERT INTO Classes VALUES (333,"Zumba");
 INSERT INTO Classes VALUES (444,"box-a-fit");
+
+//Inserting Info about memberships
+
+INSERT INTO Membership VALUES (900,"Normal");
+
+//Inserting Info about Suppliments
+
+INSERT INTO Suppliments VALUES (800,"Energy Bar","Food","20");
