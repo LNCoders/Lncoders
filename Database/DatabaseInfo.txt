@@ -1,13 +1,27 @@
-INSERT INTO Staff (001,'Andrew','Ireland','Manager','M'); 
-INSERT INTO Staff (002,'x','y','Trainer','M');
-INSERT INTO Staff (003,'x','y','Trainer','M');
-INSERT INTO Staff (004,'x','y','Trainer','M');
-INSERT INTO Staff (005,'x','y','Trainer','M');
-INSERT INTO Staff (006,'x','y','Trainer','F');
-INSERT INTO Staff (007,'x','y','Trainer','F');
-INSERT INTO Staff (008,'x','y','Trainer','F');
-INSERT INTO Staff (009,'x','y','Trainer','F');
-INSERT INTO Staff (010,'x','y','Trainer','F');
+// Inserting information into the staff table of the Database
+Staff(ID,Fname,Sname,Position,Gender..?,Teaches)
+
+INSERT INTO Staff (001,'Andrew','Ireland','Manager','M',NULL); 
+INSERT INTO Staff (002,'x','y','Trainer','M',111);
+INSERT INTO Staff (003,'x','y','Trainer','M',111);
+INSERT INTO Staff (004,'x','y','Trainer','M',222);
+INSERT INTO Staff (005,'x','y','Trainer','M',222);
+INSERT INTO Staff (006,'x','y','Trainer','F',333);
+INSERT INTO Staff (007,'x','y','Trainer','F',333);
+INSERT INTO Staff (008,'x','y','Trainer','F',444);
+INSERT INTO Staff (009,'x','y','Trainer','F',444);
+INSERT INTO Staff (010,'x','y','Trainer','F',444);
+
+//Inserting Member information into the staff table of the Database
+Member(Id,Fname,Sname,DOB,Gender,Classes?,..?)
 
 
-INSERT INTO Member();
+INSERT INTO Member(101,'x','y','31.01.92','M',111);
+
+//Inserting Info about Classes
+Classes(Id,name,..)
+
+INSERT INTO Classes(111,"Swimming");
+INSERT INTO Classes(222,"Cycling");
+INSERT INTO Classes(333,"Zumba");
+INSERT INTO Classes(444,"box-a-fit");
