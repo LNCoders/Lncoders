@@ -33,13 +33,14 @@ ClassId INT(3) PRIMARY KEY,
 ClassName VARCHAR(15) NOT NULL
 );
 
-// Creates the Classes table with (ID,MembershipName,Price)
+// Creates the Membership table with (ID,MembershipName,Price)
 
 CREATE TABLE Membership(
 MembershipId INT (3) PRIMARY KEY,
 MembershipName VARCHAR(15) NOT NULL,
 Price DECIMAL(3,2) NOT NULL
 );
+
 
 // Creates the Suppliments table with (ID,suppName,suppType,suppPrice)
 CREATE TABLE Suppliments(
@@ -48,3 +49,12 @@ SuppName VARCHAR (15) NOT NULL,
 SuppType VARCHAR (10) NOT NULL,
 SuppPrice DECIMAL (3,2) NOT NULL
 );
+
+ALTER TABLE Staff 
+ADD FOREIGN KEY (teaches) REFERENCES Classes(ClassId); 
+
+ALTER TABLE Membership 
+ADD FOREIGN KEY (takesClass) REFERENCES Classes(ClassId);
+
+ALTER TABLE Membership
+ADD FOREIGN KEY (mShipType) REFERENCES Membership(MembershipId);  
