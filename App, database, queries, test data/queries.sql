@@ -1,0 +1,1 @@
+SELECT * FROM supplements, membership, member, classes, fitnessplans;
