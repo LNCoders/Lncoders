@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="FXMLExample.jnlp">
+  <information>
+    <title>FXMLExample</title>
+    <vendor>Oracle</vendor>
+    <description>Sample JavaFX 2.0 application.</description>
+    <offline-allowed/>
+  </information>
+  <resources os="Windows">
+    <jfx:javafx-runtime version="2.0+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="FXMLExample.jar" size="73324" download="eager" />
+    <jar href="lib/mysql-connector-java-5.1.14-bin.jar" size="804188" download="eager" />
+  </resources>
+<security>
+  <all-permissions/>
+</security>
+  <applet-desc  width="226" height="264" main-class="com.javafx.main.NoJavaFXFallback"  name="FXMLExample" />
+  <jfx:javafx-desc  width="226" height="264" main-class="fxmlexample.FXMLExample"  name="FXMLExample" />
+  <update check="background"/>
+</jnlp>
