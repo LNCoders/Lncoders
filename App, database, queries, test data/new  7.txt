@@ -1,0 +1,52 @@
+package fxmlexample;
+
+import java.awt.event.ActionListener;
+import java.sql.*;
+import javafx.application.Application;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.scene.chart.PieChart;
+import javafx.scene.control.Label;
+import java.sql.*;
+import java.lang.System;
+import java.lang.String;
+
+public class FXMLExampleController {
+
+//DB Connection
+
+    public ResultSet executeQuery(String SQL) {
+        throw new UnsupportedOperationException("Not yet implemented");
+    }
+
+    Statement createStatement() {
+        throw new UnsupportedOperationException("Not yet implemented");
+    }
+    @FXML
+    private Label buttonStatusText;
+
+    @FXML
+    protected void handleSubmitButtonAction(ActionEvent event) throws SQLException {
+
+   
+
+
+
+
+        buttonStatusText.setText(
+                "PRESSED");
+
+    }
+
+    @FXML
+    protected void handlePasswordFieldAction(ActionEvent event) {
+        buttonStatusText.setText("Enter key pressed");
+    }
+    
+    @FXML protected void handleConnectAction(ActionEvent event) {
+        
+        DatabaseConnect db = new DatabaseConnect().main();
+        
+    }
+}
+
