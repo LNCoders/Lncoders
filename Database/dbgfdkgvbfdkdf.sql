@@ -1,8 +1,8 @@
-DROP TABLE Member;
-DROP TABLE Classes;
-DROP TABLE Membership;
-DROP TABLE Suppliments;
-DROP TABLE Staff;
+DROP TABLE IF EXISTS Member;
+DROP TABLE IF EXISTS Membership;
+DROP TABLE IF EXISTS Staff;
+DROP TABLE IF EXISTS Classes;
+DROP TABLE IF EXISTS Suppliments;
 
 CREATE TABLE Staff (
 StaffId INT (3) PRIMARY KEY,
@@ -54,3 +54,5 @@ ADD FOREIGN KEY (takesClass) REFERENCES Classes(ClassId);
 
 ALTER TABLE Member
 ADD FOREIGN KEY (mShipType) REFERENCES Membership(MembershipId);  
+
+
