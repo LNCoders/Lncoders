@@ -134,10 +134,10 @@ public class FirstGUI extends JFrame implements ActionListener {
 		// database connection stuff
 		Connection conn = null;
 		String url = "jdbc:mysql://dbmaster.helpmebot.org.uk/";
-		String dbName = "LNCoders_fitness";
+		String dbName = "";
 		String driver = "com.mysql.jdbc.Driver";
-		String userName = "LNCoders";
-		String password = "LNCoder52011";
+		String userName = "";
+		String password = "";
 
 		// Runs connection
 		try {
